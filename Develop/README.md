@@ -1,10 +1,10 @@
 
-# g
+#  Angelin_Professional README Generator
 
-## ![GithubLicense](https://img.shields.io/badge/license-MIT%20License-darkblue.svg)
+
 
 ## Description 
-f
+The purpose of this application is to help developers save time by generating a professional readme.md file for their projects. The user is prompted with a series of questions and choices, and their responses are automatically logged within the generated readme.md file with the correct formats and links, including a table of contents.
 
 ##  Table of Contents: 📜
 * [Installation](#installation)
@@ -16,23 +16,23 @@ f
 
 ## Installation 
 Below are the installation instructions to install dependencies--   
-g
+Inquirer is required for installation. Type 'npm i inquirer' in your terminal to install.
 
 ## Usage
 Instructions for use:   
-f
+Run the command node index.js in the terminal and the inquirer package will begin prompts for your README section information. As you answer each question you form the sections, and table of contents for your README. All the responses are converted to markdown format and the fs.write package will create the README.md file automatically upon completing the prompts.
 
-## License
+
 Below is the link for more information regarding the license used in this application:   
-https://choosealicense.com/licenses/mit/
+
 
 ## Contributing 🖧
 Below are the contribution guidelines--   
-f
+This assignment was part of the coding bootcamp modeule 09- node.js. Original startercode was provided to aide with project. Multiple outside recourses were used to learn additional concepts and how-to-dos.
 
 ## Tests
 Below are the test instructions--   
-f
+Testing steps can be added added based on project.
 
 ## Questions
 For further questions:
@@ -41,5 +41,5 @@ If you have any questions, or additional feedback, please feel free to email me 
 :handshake:
 
 **Contact Info:**  
-+ **GitHub username is:** f   
-+ 📧 **Email:** f
++ **GitHub username is:** angelinrajan   
++ 📧 **Email:** angelinrajan20@gmail.com

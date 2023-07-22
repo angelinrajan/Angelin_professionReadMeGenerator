@@ -5,7 +5,9 @@ The purpose of this application is to help developers save time by generating a 
 
 
 ## Live Demo -
-This application is not deployed as a live website. It is a tool to be used locally
+This application is not deployed as a live website. It is a tool to be used locally.    
+**Link to live demo:**  <video src="Angelin_ProfessionalReadmeGenerator.mp4" controls title="ProfessionalReadmeGenerator"></video>    
+_May need to download the mp4 video to enable audio._
 
 ## Functionality of the website-
 After installing the application locally, you can run it using the command node index.js. This will present you with a series of prompts that you need to answer. The application will then populate your responses under their corresponding headers in the generated readme.md file. The following prompts are presented to the user:
