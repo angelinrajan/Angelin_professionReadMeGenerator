@@ -1,12 +1,12 @@
 
-# h
+# g
 
-## 
+## ![GithubLicense](https://img.shields.io/badge/license-MIT%20License-darkblue.svg)
 
 ## Description 
-j
+f
 
-## Table of Contents:
+##  Table of Contents: 📜
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contributing)
@@ -14,25 +14,32 @@ j
 * [Test](#tests)
 * [Question](#question)
 
-## Installation
-Below are the installation instructions to install dependencies--
-undefined
+## Installation 
+Below are the installation instructions to install dependencies--   
+g
 
 ## Usage
-Below is the usage information--
-undefined
+Instructions for use:   
+f
 
+## License
+Below is the link for more information regarding the license used in this application:   
+https://choosealicense.com/licenses/mit/
 
-Below is the link for more information regarding the license used in this application:
-undefined
-
-## Contributing
-Below are the contribution guidelines--
-undefined
+## Contributing 🖧
+Below are the contribution guidelines--   
+f
 
 ## Tests
-Below are the test instructions--
-undefined
+Below are the test instructions--   
+f
 
 ## Questions
-Additional information regarding the project can be viewed github. My username is: j. For any questions, I can be contacted at my email : j.
+For further questions:
+
+If you have any questions, or additional feedback, please feel free to email me and I will respond as soon as possible.
+:handshake:
+
+**Contact Info:**  
++ **GitHub username is:** f   
++ 📧 **Email:** f

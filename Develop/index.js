@@ -12,39 +12,39 @@ const questions = [ //(Starter code)
   },
   {
     type: 'input',
-    message: 'Project description?',
+    message: 'What is your Project description?',
     name: 'description',
   },
   {
     type: 'list',
-    message: 'License used?',
+    message: 'What is/are the name of the License(s) used within your project?',
     name: 'license',
     choices: ['None', 'MIT License', 'Apache License 2.0', 'Boost Software License 1.0', 'GNU General Public License v3.0',
       'BSD 2-Clause "Simplified" License', 'BSD 3-Clause "New" or "Revised" License', 'Creative Commons Zero v1.0 Universal',
       'Eclipse Public License 2.0', 'GNU Affero General Public License v3.0', 'GNU General Public License v2.0',
       'GNU Lesser General Public License v2.1', 'Mozilla Public License 2.0'],
   },
-  // {
-  //     type: 'input',
-  //     name: 'installation',
-  //     message: 'Enter installation instructions:',
-  //   },
+  {
+      type: 'input',
+      name: 'installation',
+      message: 'Enter installation instructions:',
+    },
 
-  //   {
-  //     type: 'input',
-  //     name: 'usage',
-  //     message: 'Enter usage information:',
-  //   },
-  //   {
-  //     type: 'input',
-  //     name: 'contributing',
-  //     message: 'Enter contribution guidelines:',
-  //   },
-  //   {
-  //     type: 'input',
-  //     name: 'tests',
-  //     message: 'Enter test instructions:',
-  //   },
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'Enter usage information for your project:',
+    },
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'Enter contribution guidelines:',
+    },
+    {
+      type: 'input',
+      name: 'tests',
+      message: 'Enter test instructions:',
+    },
   {
     type: 'input',
     name: 'githubUsername',

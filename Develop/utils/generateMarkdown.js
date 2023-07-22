@@ -23,13 +23,16 @@ function renderLicenseBadge(license) {
   for (i=0; i<license.length; i++) {
 if (license[i] === ' ') {
   validatedLicense += '%20'
-} else {
+} else if (license[i] === '-') {
+  validatedLicense += '--'
+} 
+else {
   validatedLicense += license[i]
 }
 
   }
 
-  return `![GithubLicense](https://img.shields.io/badge/license-${validatedLicense}-orange.svg)`
+  return `## ![GithubLicense](https://img.shields.io/badge/license-${validatedLicense}-darkblue.svg)`
  }
  return ''; // Return an empty string if there's an error
 };
@@ -73,12 +76,12 @@ function generateMarkdown(data) {
   return `
 # ${data.heading}
 
-## ${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.license)}
 
 ## Description 
 ${data.description}
 
-## Table of Contents:
+##  Table of Contents: 📜
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contribution](#contributing)
@@ -86,28 +89,35 @@ ${data.description}
 * [Test](#tests)
 * [Question](#question)
 
-## Installation
-Below are the installation instructions to install dependencies--
+## Installation 
+Below are the installation instructions to install dependencies--   
 ${data.installation}
 
 ## Usage
-Below is the usage information--
+Instructions for use:   
 ${data.usage}
 
 ${renderLicenseSection(data.license)}
-Below is the link for more information regarding the license used in this application:
+Below is the link for more information regarding the license used in this application:   
 ${renderLicenseLink(data.license)}
 
-## Contributing
-Below are the contribution guidelines--
-${data.contribution}
+## Contributing 🖧
+Below are the contribution guidelines--   
+${data.contributing}
 
 ## Tests
-Below are the test instructions--
-${data.test}
+Below are the test instructions--   
+${data.tests}
 
 ## Questions
-Additional information regarding the project can be viewed github. My username is: ${data.githubUsername}. For any questions, I can be contacted at my email : ${data.email}.
+For further questions:
+
+If you have any questions, or additional feedback, please feel free to email me and I will respond as soon as possible.
+:handshake:
+
+**Contact Info:**  
++ **GitHub username is:** ${data.githubUsername}   
++ 📧 **Email:** ${data.email}
 `;
 }
 
