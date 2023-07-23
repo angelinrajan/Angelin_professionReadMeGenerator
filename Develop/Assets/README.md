@@ -4,10 +4,14 @@
 The purpose of this application is to help developers save time by generating a professional readme.md file for their projects. The user is prompted with a series of questions and choices, and their responses are automatically logged within the generated readme.md file with the correct formats and links, including a table of contents.
 
 
-## Live Demo -
+## Live Demo & Screenshots of readme -
 This application is not deployed as a live website. It is a tool to be used locally.    
-**Link to live demo:**  <video src="Angelin_ProfessionalReadmeGenerator.mp4" controls title="ProfessionalReadmeGenerator"></video>    
-_May need to download the mp4 video to enable audio._
+**Link to live demo:**    <video src="Angelin_ProfessionalReadmeGenerator.mp4" controls title="Demo"></video>
+_May need to download the mp4 video to enable audio from the assets folder._
+
+**Screenshots:** 
+![ReadmeScreenshot1](Screenshots/readme1.png)
+![ReadmeScreenshot2](Screenshots/readme2.png)
 
 ## Functionality of the website-
 After installing the application locally, you can run it using the command node index.js. This will present you with a series of prompts that you need to answer. The application will then populate your responses under their corresponding headers in the generated readme.md file. The following prompts are presented to the user:

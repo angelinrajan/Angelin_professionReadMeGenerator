@@ -1,7 +1,7 @@
 
 #  Angelin_Professional README Generator
 
-
+## ![GithubLicense](https://img.shields.io/badge/license-Boost%20Software%20License%201.0-darkblue.svg)
 
 ## Description 
 The purpose of this application is to help developers save time by generating a professional readme.md file for their projects. The user is prompted with a series of questions and choices, and their responses are automatically logged within the generated readme.md file with the correct formats and links, including a table of contents.
@@ -22,9 +22,9 @@ Inquirer is required for installation. Type 'npm i inquirer' in your terminal to
 Instructions for use:   
 Run the command node index.js in the terminal and the inquirer package will begin prompts for your README section information. As you answer each question you form the sections, and table of contents for your README. All the responses are converted to markdown format and the fs.write package will create the README.md file automatically upon completing the prompts.
 
-
+## License
 Below is the link for more information regarding the license used in this application:   
-
+https://choosealicense.com/licenses/bsl-1.0/
 
 ## Contributing 🖧
 Below are the contribution guidelines--   
