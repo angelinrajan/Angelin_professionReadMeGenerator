@@ -6,7 +6,8 @@ The purpose of this application is to help developers save time by generating a 
 
 ## Live Demo & Screenshots of readme -
 This application is not deployed as a live website. It is a tool to be used locally.    
-**Link to live demo:**    <video src="Angelin_ProfessionalReadmeGenerator.mp4" controls title="Demo"></video>
+**Link to live demo:**    
+<video src="Angelin-ReadMeGenerator.mp4" controls title="ReeadMeGeneratorVideo"></video>
 _May need to download the mp4 video to enable audio from the assets folder._
 
 **Screenshots:** 
